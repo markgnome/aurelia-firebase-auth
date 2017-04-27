@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Aurelia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body aurelia-app="main">
+  <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBJR1JwQ6yjR_iYPsyN7bo3gM80ghQVnHY",
+      authDomain: "authenticate-me-dc1d4.firebaseapp.com",
+      databaseURL: "https://authenticate-me-dc1d4.firebaseio.com",
+      projectId: "authenticate-me-dc1d4",
+      storageBucket: "authenticate-me-dc1d4.appspot.com",
+      messagingSenderId: "597950461539"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="scripts/vendor-bundle.js" data-main="aurelia-bootstrapper"></script>
+</body>
+</html>
